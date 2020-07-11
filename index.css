@@ -1,0 +1,64 @@
+.card { 
+margin: 250px;
+
+}
+
+.card-body{
+    display: inline-flex;
+    padding: 0%;
+    
+}
+
+.card-img-top{
+    width: 50%;
+}
+.fab
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 10px;
+}
+
+.c{
+display: block;
+width: 50%;
+margin-left: 10px;
+}
+
+.share
+{
+    margin-left:20px ;
+    margin-top: 20px;
+
+}
+
+#mypopup{
+    background-color: gray;
+    width: 6rem;
+    padding: 2px;
+    margin: 2px;
+    padding-left: 5px;
+    border-radius: 10px;
+    height: 7rem;
+}
+@media only screen and (max-width:375px) {
+    .card-body{
+        display: block;
+        width: 100%;
+        padding: 0%;
+    }
+    .card{
+        width: fit-content;
+    }
+    .card-img-top{
+width: 100%;
+    }
+    .c{
+        width: 100%;
+    }
+    #mypopup    
+    {
+        widows: 40rem;
+    }
+    
+  }
